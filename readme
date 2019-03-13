@@ -1,0 +1,6 @@
+This project is an example project to use redis with spring boot.
+Instructions :
+
+1. Make sure Entity implemnts Serializable interface.
+2. Annotate with @Cacheable on getMethod and define key=#id
+3. In SpringApplication.java annotate with @EnableCache
